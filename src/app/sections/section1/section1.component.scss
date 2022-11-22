@@ -111,6 +111,9 @@
     #header h2 {
         font-size: 1.7rem;
     }
+    #sub-section-header > h2{
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -126,10 +129,13 @@
 
 @media screen and (max-width: 425px) {
     .content {
-        height: 365vh;
+        height: 375vh;
     }
     #header h2 {
         font-size: 1.25rem;
+    }
+    #sub-section-header > h2{
+        font-size: 1.1rem;
     }
 }
 @media screen and (max-width: 413px) {
