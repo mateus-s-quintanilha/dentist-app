@@ -91,3 +91,12 @@
         margin-bottom: .5rem;
     }
 }
+
+
+// For specific devices:
+// @media screen and (max-width: 900px) and (max-height: 450px) {
+@media screen and (max-width: 950px) and (max-height: 450px) {
+    .banner {
+        height: 95vh;
+    }   
+}
