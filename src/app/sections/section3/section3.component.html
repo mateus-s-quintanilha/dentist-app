@@ -1,0 +1,35 @@
+
+<div class="container">
+
+    <ngb-carousel data-aos="fade-up" *ngIf="images">
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img class="fotos" [src]="images[0]" alt="Random first slide" />
+            </div>
+            <div class="carousel-caption">
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img class="fotos" [src]="images[1]" alt="Random second slide" />
+            </div>
+            <div class="carousel-caption">
+            </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+                <img class="fotos" [src]="images[2]" alt="Random third slide" />
+            </div>
+            <div class="carousel-caption">
+            </div>
+        </ng-template>
+    </ngb-carousel>
+
+    <div data-aos="fade-left" class="info">
+        <h2>Não adie mais a sua saúde bucal, sinta a transformação de forma rápida e permanente</h2>
+        <p>Ter um sorriso bonito e dentes saudáveis é indispensável para uma boa saúde bucal e autoestima garantida.</p>
+        <p>Possuimos um estrutura completa e bem localizada , tratamentos acessiveis com pagamentos facilitados que se
+            encaixam perfeitamente no seu orçamento.</p>
+    </div>
+</div>
+<br><br><br>

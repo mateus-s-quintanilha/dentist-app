@@ -9,14 +9,16 @@ import { ApresentationComponent } from './sections/apresentation/apresentation.c
 
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { Section1Component } from './sections/section1/section1.component';
-import { Section2Component } from './sections/section2/section2.component'
+import { Section2Component } from './sections/section2/section2.component';
+import { Section3Component } from './sections/section3/section3.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     ApresentationComponent,
     Section1Component,
-    Section2Component
+    Section2Component,
+    Section3Component
   ],
   imports: [
     BrowserModule,
