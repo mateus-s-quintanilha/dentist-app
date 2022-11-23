@@ -212,20 +212,26 @@
     }
 }
 
-@media (max-width: 800px) and (max-height: 1030px) {
-    .content {
-        // height: 125vh;
-    }
-}
+// @media (max-width: 800px) and (max-height: 1030px) {
+//     .content {
+//         // height: 125vh;
+//     }
+// }
 
 @media (min-height: 900px) {
     .content {
-        height: 142vh;
+        // height: 142vh;
     }
 }
 
-@media (min-height: 700px) {
+// @media (min-height: 700px) {
+//     .content {
+//         // height: 380vh;
+//     }
+// }
+
+@media (min-height: 850px) {
     .content {
-        height: 150vh;
+        height: 345vh;
     }
 }
