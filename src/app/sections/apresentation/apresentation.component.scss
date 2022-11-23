@@ -37,19 +37,30 @@
 }
 
 .title > h1 {
-    width: 100%;
+    width: 95%;
     // margin-top: 3rem;
     font-size: 2.5rem;
-    text-align: left;
-    font-weight: 400;
+    font-weight: 300;
     // color: #ffffff;
     color: #696969;
     // color: rgb(65, 61, 61);
     opacity: .9;
     font-family: 'Roboto', sans-serif;
     margin-left: 1rem;
+    text-align: center;
 }
 
+
+@media (min-width: 1800px) {
+    .title > h1 {
+        font-size: 3.5rem;
+    }   
+    .btn {
+        padding: 10px 20px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+}
 
 
 @media screen and (max-width: 1025px) {
