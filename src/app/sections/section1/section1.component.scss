@@ -172,7 +172,8 @@
 
 @media screen and (max-width: 425px) {
     .content {
-        height: 378vh;      // Testar isso
+         // Testar isso
+        height: 375vh;         
     }
     #header h2 {
         font-size: 1.25rem;
@@ -206,6 +207,25 @@
 // @media screen and (max-width: 900px) and (max-height: 430px) {
 @media screen and (max-width: 950px) and (max-height: 450px) {
     .content {
-        height: 365vh;
+        // height: 365vh;
+        height: 300vh;
+    }
+}
+
+@media (max-width: 800px) and (max-height: 1030px) {
+    .content {
+        // height: 125vh;
+    }
+}
+
+@media (min-height: 900px) {
+    .content {
+        height: 142vh;
+    }
+}
+
+@media (min-height: 700px) {
+    .content {
+        height: 150vh;
     }
 }

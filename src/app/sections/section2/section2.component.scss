@@ -100,3 +100,15 @@
         height: 95vh;
     }   
 }
+
+@media (min-height: 900px) {
+    .content {
+        height: 72vh;
+    }
+}
+
+@media (min-height: 700px) {
+    .content {
+        height: 65vh;    
+    }
+}
