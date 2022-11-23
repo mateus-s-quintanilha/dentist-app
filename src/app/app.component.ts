@@ -14,7 +14,11 @@ export class AppComponent implements OnInit {
   faArrowAltCircleRight = faArrowAltCircleRight
   // faYahoo = faYahoo
 
-
+  link1: string = "../../../assets/foto-consultorio1-editado.jpg"
+  link2: string = "../../../assets/foto-consultorio2-editado.jpg"
+  link3: string = "../../../assets/recepcao.jpeg"
+  // images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  images = [this.link1, this.link2, this.link3]
 
   ngOnInit(): void {
     AOS.init({

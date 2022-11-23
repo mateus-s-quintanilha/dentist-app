@@ -1,9 +1,178 @@
-<app-apresentation id="apresentation"></app-apresentation>
-<br><br><br><br>
-<app-section1 id="section1"></app-section1>
-<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
-<app-section2></app-section2>
-<app-section3></app-section3>
+<div class="container-fluid">
+    <div class="banner">
+        <div class="banner-content d-flex flex-column justify-content-center align-items-center">
+            <img data-aos="fade-right" id="logo" src="../assets/parsePNG.jpeg" alt="foto">
+            <div data-aos="fade-up" class="banner-title d-flex flex-column justify-content-center align-items-center">
+                <h1>Um consultório odontológico completo para você sorrir sempre!</h1>
+                <a href="#section1">
+                    <button class="btn btn-info text-white">
+                        <fa-icon [icon]="faArrowAltCircleRight"></fa-icon>
+                        Ver tratamentos
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div data-aos="fade-up" id="section1" class="section-1">
+            <div class="header d-flex justify-content-center align-items-center">
+               <h2>Veja todos os tratamentos oferecidos:</h2>
+            </div>
+            <div class="section-1-content">
+                <div class="row justify-content-around">
+                    <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/lente-de-contato.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-text d-flex justify-content-center">
+                                    LENTES DE CONTATO
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/clareamento-dental.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-text d-flex justify-content-center">
+                                    CLAREAMENTO DENTAL
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center">
+                        <div class="card d-flex justify-content-center align-items-center">
+                            <img class="card-img-top" src="../../../assets/protese-flexivel.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-text d-flex justify-content-center">
+                                    PRÓTESE FLEXÍVEL
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center">
+                        <div class="card d-flex justify-content-center align-items-center">
+                                <img class="card-img-top" src="../../../assets/cirurgia-odontologica.jpeg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-text d-flex justify-content-center">
+                                        CIRURGIAS
+                                    </h4>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center">
+                        <div class="card d-flex justify-content-center align-items-center">
+                            <img class="card-img-top" src="../../../assets/atendimento-infantil.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-text d-flex justify-content-center">
+                                    ATENDIMENTO INFANTIL
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center">
+                        <div class="card d-flex justify-content-center align-items-center">
+                            <img class="card-img-top" src="../../../assets/tratamento-canal.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-text d-flex justify-content-center">
+                                    TRATAMENTO DE CANAL
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+        <div class="section-2">
+            <div class="header d-flex justify-content-center align-items-center">
+                <h2>Seu tratamento com máxima</h2>
+            </div>
+            <div class="section-2-content">
+                <div class="row justify-content-around">
+                    <div class="col-md-3 col-sm-6 col-xs-12 sub-section-card d-flex justify-content-center">
+                        <div class="sub-section-card-content d-flex flex-column justify-content-center align-items-center">
+                            <img src="../../../assets/sub-section-1.png" alt="">
+                            <h4>Segurança</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-xs-12 sub-section-card d-flex justify-content-center">
+                        <div class="sub-section-card-content d-flex flex-column justify-content-center align-items-center">
+                            <img src="../../../assets/sub-section-2.png" alt="">
+                            <h4>Conforto</h4>
+                        </div>
+                      </div> 
+                      <div class="col-md-3 col-sm-6 col-xs-12 sub-section-card d-flex justify-content-center">
+                        <div class="sub-section-card-content d-flex flex-column justify-content-center align-items-center">
+                            <img src="../../../assets/sub-section-3.png" alt="">
+                            <h4>Excelência</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-xs-12 sub-section-card d-flex justify-content-center">
+                          <div class="sub-section-card-content d-flex flex-column justify-content-center align-items-center">
+                                <img src="../../../assets/sub-section-4.png" alt="">
+                                <h4>Satisfação</h4>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-3">
+        <div class="section-3-banner d-flex justify-content-center align-items-center">
+            <!-- <div data-aos="zoom-in-up" class="section-3-banner-content row d-flex justify-content-center align-items-center"> -->
+            <div data-aos="zoom-in-up" class="row justify-content-center">
+                <div class="section-3-card col-lg-3 col-md-8 col-sm-8 d-flex flex-column justify-content-center align-items-center">
+                    <div class="title-num d-flex justify-content-center align-items-center">01</div>
+                    <div class="subtitle">Avaliação</div>
+                    <div class="info">Nesta etapa o Cirurgião Dentista, realiza o exame clinico da cavidade oral do paciente.</div>
+                </div>
+                <div id="middle-div" class="section-3-card col-lg-3 col-md-8 col-sm-8 d-flex flex-column justify-content-center align-items-center">
+                    <div class="title-num d-flex justify-content-center align-items-center">02</div>
+                    <div class="subtitle">Análise e diagnóstico</div>
+                    <div class="info">Terminando o exame clinico , o dentista fará uma análise de tudo que foi observado, e junto com o relato do paciente , conseguirá definir um diagnóstico.</div>
+                </div>
+                <div class="section-3-card col-lg-3 col-md-8 col-sm-8 d-flex flex-column justify-content-center align-items-center">
+                    <div class="title-num d-flex justify-content-center align-items-center">03</div>
+                    <div class="subtitle">Protocolo de tratamento</div>
+                    <div class="info">Nesta mesma consulta inicial, informaremos o Plano de Tratamento recomendado para o seu caso.</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="section-4">
+            <ngb-carousel data-aos="fade-up" *ngIf="images">
+                    <ng-template ngbSlide>
+                        <div class="picsum-img-wrapper">
+                            <img class="fotos" [src]="images[0]" alt="Random first slide" />
+                        </div>
+                        <div class="carousel-caption">
+                        </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="picsum-img-wrapper">
+                            <img class="fotos" [src]="images[1]" alt="Random second slide" />
+                        </div>
+                        <div class="carousel-caption">
+                        </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="picsum-img-wrapper">
+                            <img class="fotos" [src]="images[2]" alt="Random third slide" />
+                        </div>
+                        <div class="carousel-caption">
+                        </div>
+                    </ng-template>
+            </ngb-carousel>
+            <div data-aos="fade-left" class="section-4-info">
+                <h2>Não adie mais a sua saúde bucal, sinta a transformação de forma rápida e permanente</h2>
+                <p>Ter um sorriso bonito e dentes saudáveis é indispensável para uma boa saúde bucal e autoestima garantida.</p>
+                <p>Possuimos um estrutura completa e bem localizada , tratamentos acessiveis com pagamentos facilitados que se encaixam no seu orçamento.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 
