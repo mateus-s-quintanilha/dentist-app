@@ -235,3 +235,16 @@
         height: 345vh;
     }
 }
+
+@media (max-height: 580px) {
+    .content {
+        // height: 240vh;
+    }
+}
+
+@media (min-height: 800px) {
+    .content {
+        height: 150vh;
+    }
+    
+}
