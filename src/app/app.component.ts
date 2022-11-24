@@ -2,7 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
 
 import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
-
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons'; 
 
 @Component({
   selector: 'app-root',
@@ -12,7 +17,13 @@ import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
 export class AppComponent implements OnInit {
   title = 'clinic-app';
   faArrowAltCircleRight = faArrowAltCircleRight
-  // faYahoo = faYahoo
+  faInstagram = faInstagram
+  faWhatsapp = faWhatsapp 
+  faPhone = faPhone
+  faEnvelope = faEnvelope
+  faLocationPin = faLocationPin
+  faUser = faUser
+  // <fa-icon [icon]="faInstagram"></fa-icon>
 
   link1: string = "../../../assets/foto-consultorio1-editado.jpg"
   link2: string = "../../../assets/foto-consultorio2-editado.jpg"
