@@ -5,6 +5,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
-body {
+// body {
+//     overflow-x: hidden;
+//     // max-width: 100vw;
+//     width: 100vw;
+// }
+
+// This config removes the scroll-bar in mobile devices:
+html, body {
     overflow-x: hidden;
+}
+body {
+    position: relative
 }
