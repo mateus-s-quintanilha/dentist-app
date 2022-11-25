@@ -475,27 +475,12 @@ ngb-carousel {
         width: 50%;
         height: 400px;
     }
-    .section-6-content {
-        height: 75vh;
-    }
-
-    // .map {
-    //     margin-top: 4rem;
-    //     max-height: 80%;
-    // }
-    
-    .social-media h3 {
-        font-size: 1.6rem;
-        padding-bottom: .5rem;
-        padding-top: .5rem;
-    }
-    
-    .social-media ul li{
-        padding: .2rem .4rem;
-    }
 
 }
 @media (max-width: 900px) and (max-height: 450px) {
+    .section-6-content {
+        height: 75vh;
+    }
     .map {
         margin-top: 4rem;
         max-height: 80%;
