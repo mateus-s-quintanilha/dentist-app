@@ -247,7 +247,8 @@ ngb-carousel {
 
 #section-5-logo {
     width: 70%;
-    height: 28%;
+    // height: 28%;
+    height: auto;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
@@ -422,7 +423,8 @@ ngb-carousel {
 
     #section-5-logo {
         width: 70%;
-        height: 24%;
+        // height: 24%;
+        height: auto;
     }
 
 }
@@ -464,7 +466,7 @@ ngb-carousel {
     }
     #section-5-logo {
         width: 70%;
-        height: 26%;
+        height: auto;
     }
     #logo {
         width: 420px;
@@ -535,10 +537,14 @@ ngb-carousel {
     .section-6-content-header h2{
         font-size: 1.8rem;
     }
+    .section-5 {
+        height: 65%;
+    }
 
     #section-5-logo {
         width: 80%;
-        height: 20%;
+        // height: 20%;
+        height: auto;
     }
 
     .section-5-content h2 {
@@ -552,6 +558,7 @@ ngb-carousel {
         width: 340px;
         height: 90px;
         border-radius: 1rem;
+        margin-bottom: 5rem;
     }
     .banner-title h1 { 
         font-size: 1.3rem;
@@ -585,7 +592,8 @@ ngb-carousel {
     }
 
     .section-5 {
-        height: 60%;
+        // height: 60%;
+        height: 50%;
         width: 90%;
     }
     .info {
@@ -603,9 +611,37 @@ ngb-carousel {
     }
     #section-5-logo {
         width: 90%;
-        height: 22%;
+        // height: 22%;
+        height: auto;
+    }
+    #wpp-btn {
+        width: 45%;
+        height: auto;
+    }
+    .section-6-content-header h2{
+        font-size: 1.5rem;
     }
 
+    
+    .section-6-content {
+        height: 53vh;
+    }
+    .map {
+        margin-top: 1rem;
+        // max-height: 80%;
+    }
+
+}
+
+@media(max-width: 450px) {
+    .section-5 {
+        // height: 60%;
+        height: 43%;
+        width: 90%;
+    }
+    .section-5-content h2 {
+        font-size: 1.3rem;
+    }
 }
 
 
@@ -632,6 +668,9 @@ ngb-carousel {
     }
     .section-6-content {
         height: 80vh;
+    }
+    .container-section-5 {
+        height: 90vh;
     }
 }
 
@@ -698,3 +737,13 @@ ngb-carousel {
     }
 }
 
+//For tablets:
+@media(min-width: 768px) and (min-height: 850px) {
+    .container-section-5 {
+        height: 90vh;
+    }
+    .section-5 {
+        height: 55%;
+        width: 90%;
+    }
+}

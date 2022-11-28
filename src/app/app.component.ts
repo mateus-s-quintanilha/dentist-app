@@ -55,5 +55,11 @@ export class AppComponent implements OnInit {
     
     });
     
+    // Try to remove the AOS bug:
+    document.querySelectorAll('img').forEach((img) => {
+      img.addEventListener('load', () => {
+        AOS.refresh()
+      })
+    })
   }
 }
